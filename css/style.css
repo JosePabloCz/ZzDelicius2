@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+    background-color: #e0e0e0;
+  }
+.main {
+    flex: 1 0 auto;
+}
+.nav-wrapper{
+    padding-left: 20px;;
+}
+body .page-footer .footer-text{
+    font-size: 20px;
+    margin-top: -10px;
+}
+.texto-1{
+    text-decoration: none;
+    color: #ff80ab;
+    font-size: 30px;
+}
+.sidenav li a{
+    color: white;
+}
+
+.sidenav .itemv1{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
+/* Start: Google Maps Responsive */
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:400px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/* End: Google Maps Responsive */
